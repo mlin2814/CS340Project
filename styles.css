@@ -10,9 +10,20 @@
     display: flex;
 }
 
+#teacherActions {
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+#studentActions {
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+
 .column {
     flex: 50%;
-    text-align: center;
+    text-align: left;
 }
 
 #teachers {

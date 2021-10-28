@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Database Teachers</title>
+</head>
+<body>
+    <section id="nav-bar" class="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="teachers.html" class="active">Teachers</a>
+        <a href="students.html">Students</a>
+        <a href="textbooks.html">Textbooks</a>
+    </section>
+
+    <section id="schoolName">
+        <h1>Database High School</h1>
+    </section>
+    <section class="column" id="teacherActions">
+        <section class="column" id="teacherList">
+            <div>
+                <ul>
+                    <li>Teacher 1 First Name Last Name <button>DELETE</button></li>
+                    <li>Teacher 2 First Name Last Name <button>DELETE</button></li>
+                    <li>Teacher 3 First Name Last Name <button>DELETE</button></li>
+                    <li>Teacher 4 First Name Last Name <button>DELETE</button></li>
+                    <li>Teacher 5 First Name Last Name <button>DELETE</button></li>
+                    <li>Teacher 6 First Name Last Name <button>DELETE</button></li>
+                    <li>Teacher 7 First Name Last Name <button>DELETE</button></li>
+                    <li>Teacher 8 First Name Last Name <button>DELETE</button></li>
+                    <li>Teacher 9 First Name Last Name <button>DELETE</button></li>
+                    <li>Teacher 10 First Name Last Name <button>DELETE</button></li>
+                </ul>
+            </div>
+        </section>
+        <section class="column" id="teacherAdd">
+            <form>
+                <h3>ADD TEACHER</h3>
+                <label>First Name:</label>
+                <br />
+                <input type="text" name="teacherAddFName" id="teacherAddFName">
+                <br />
+                <label>Last Name:</label>
+                <br />
+                <input type="text" name="teacherAddLName" id="teacherAddLName">
+                <br />
+                <label>Email:</label>
+                <br />
+                <input type="email" name="teacherAddEmail" id="teacherAddEmail">
+                <br />
+                <label>Phone Number:</label>
+                <br />
+                <input type="tel" name="teacherAddPhone" id="teacherAddPhone" pattern="([0-9]{3}) [0-9]{3}-[0-9]{4}">
+                <br />
+                <label>Subject:</label>
+                <br />
+                <input type="text" name="teacherAddSubject" id="teacherAddSubject">
+                <br />
+                <label>Grade:</label>
+                <br />
+                <input type="number" name="teacherAddGrade" id="teacherAddGrade">
+                <br />
+                <br />
+                <button>ADD TEACHER</button>
+            </form>
+        </section>
+        <section class="column" id="teacherUpdate">
+            <form>
+                <h3>UPDATE TEACHER</h3>
+                <label>ID #:</label>
+                <br />
+                <input type="number" name="teacherUpdateID" id="teacherUpdateID">
+                <br />
+                <label>First Name:</label>
+                <br />
+                <input type="text" name="teacherUpdateFName" id="teacherUpdateFName">
+                <br />
+                <label>Last Name:</label>
+                <br />
+                <input type="text" name="teacherUpdateLName" id="teacherUpdateLName">
+                <br />
+                <label>Email:</label>
+                <br />
+                <input type="email" name="teacherUpdateEmail" id="teacherUpdateEmail">
+                <br />
+                <label>Phone Number:</label>
+                <br />
+                <input type="tel" name="teacherUpdatePhone" id="teacherUpdatePhone" pattern="([0-9]{3}) [0-9]{3}-[0-9]{4}">
+                <br />
+                <label>Subject:</label>
+                <br />
+                <input type="text" name="teacherUpdateSubject" id="teacherUpdateSubject">
+                <br />
+                <label>Grade:</label>
+                <br />
+                <input type="number" name="teacherUpdateGrade" id="teacherUpdateGrade">
+                <br />
+                <br />
+                <button>UPDATE TEACHER</button>
+            </form>
+        </section>
+    </section>
+</body>
+</html>
