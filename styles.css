@@ -1,0 +1,49 @@
+#schoolName {
+    margin: auto;
+    width: 50%;
+    border: 3px solid orangered;
+    padding: 10px;
+    text-align: center;
+}
+
+div.form {
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#attendance {
+    display: flex;
+}
+
+#teacherActions {
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+#studentActions {
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+
+.column {
+    flex: 50%;
+    text-align: left;
+}
+
+#teachers {
+    overflow: auto;
+    height: 150px;
+}
+
+#students {
+    overflow: auto;
+    height: 150px;
+}

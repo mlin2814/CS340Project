@@ -1,7 +1,4 @@
 # CS340Project
-The repo that will hold our project for OSU CS340
-
-# CS340Project
 The repo that will hold our project for OSU CS340.
 
 We have a main page that will have two scrollable sections: one for all of the teachers in the school and the other for all of the students.

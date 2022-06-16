@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Database Students</title>
+</head>
+<body>
+    <section id="nav-bar" class="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="teachers.html">Teachers</a>
+        <a href="students.html" class="active">Students</a>
+        <a href="textbooks.html">Textbooks</a>
+        <a href="classrooms.html">Classrooms</a>
+    </section>
+
+    <section id="schoolName">
+        <h1>Database High School</h1>
+    </section>
+    <section class="column" id="studentActions">
+        <section class="column" id="studentList">
+            <div>
+                <ul>
+                    <li>student 1; First Name; Last Name; student1@email.com; 1111111111; GPA: 3.5; Grade 9 <button>DELETE</button></li>
+                    <li>student 2; First Name; Last Name; student2@email.com; 2222222222; GPA: 3.5; Grade 9 <button>DELETE</button></li>
+                    <li>student 3; First Name; Last Name; student3@email.com; 3333333333; GPA: 3.5; Grade 9 <button>DELETE</button></li>
+                    <li>student 4; First Name; Last Name; student4@email.com; 4444444444; GPA: 3.5; Grade 10 <button>DELETE</button></li>
+                    <li>student 5; First Name; Last Name; student5@email.com; 5555555555; GPA: 3.5; Grade 10 <button>DELETE</button></li>
+                    <li>student 6; First Name; Last Name; student6@email.com; 6666666666; GPA: 3.5; Grade 11 <button>DELETE</button></li>
+                    <li>student 7; First Name; Last Name; student7@email.com; 7777777777; GPA: 3.5; Grade 11 <button>DELETE</button></li>
+                    <li>student 8; First Name; Last Name; student8@email.com; 8888888888; GPA: 3.5; Grade 12 <button>DELETE</button></li>
+                    <li>student 9; First Name; Last Name; student9@email.com; 9999999999; GPA: 3.5; Grade 12 <button>DELETE</button></li>
+                    <li>student 10; First Name; Last Name; student10@email.com; 10000000000; GPA: 3.5; Grade 12 <button>DELETE</button></li>                
+                </ul>
+            </div>
+        </section>
+        <section class="column" id="StudentAdd">
+            <form>
+                <h3>ADD STUDENT</h3>
+                <label>First Name:</label>
+                <br />
+                <input type="text" name="studentAddFName" id="studentAddFName">
+                <br />
+                <label>Last Name:</label>
+                <br />
+                <input type="text" name="studentAddLName" id="studentAddLName">
+                <br />
+                <label>Email:</label>
+                <br />
+                <input type="email" name="studentAddEmail" id="studentAddEmail">
+                <br />
+                <label>Phone Number:</label>
+                <br />
+                <input type="tel" name="studentAddPhone" id="studentAddPhone" pattern="([0-9]{3}) [0-9]{3}-[0-9]{4}">
+                <br />
+                <label>Grade:</label>
+                <br />
+                <input type="number" name="studentAddGrade" id="studentAddGrade">
+                <br />
+                <label>GPA:</label>
+                <br />
+                <input type="number" name="studentAddGPA" id="studentAddGPA">
+                <br />
+                <br />
+                <button>ADD STUDENT</button>
+            </form>
+        </section>
+        <section class="column" id="studentUpdate">
+            <form>
+                <h3>UPDATE STUDENT</h3>
+                <label>ID #:</label>
+                <br />
+                <input type="number" name="studentUpdateID" id="studentUpdateID" placeholder="Search for student">
+                <br />
+                <label>First Name:</label>
+                <br />
+                <input type="text" name="studentUpdateFName" id="studentUpdateFName">
+                <br />
+                <label>Last Name:</label>
+                <br />
+                <input type="text" name="studentUpdateLName" id="studentUpdateLName">
+                <br />
+                <label>Email:</label>
+                <br />
+                <input type="email" name="studentUpdateEmail" id="studentUpdateEmail">
+                <br />
+                <label>Phone Number:</label>
+                <br />
+                <input type="tel" name="studentUpdatePhone" id="studentUpdatePhone" pattern="([0-9]{3}) [0-9]{3}-[0-9]{4}">
+                <br />
+                <label>Subject:</label>
+                <br />
+                <input type="text" name="studentUpdateSubject" id="studentUpdateSubject">
+                <br />
+                <label>Grade:</label>
+                <br />
+                <input type="number" name="studentUpdateGrade" id="studentUpdateGrade">
+                <br />
+                <label>GPA:</label>
+                <br />
+                <input type="number" name="studentUpdateGPA" id="studentUpdateGPA">
+                <br />
+                <br />
+                <button>UPDATE STUDENT</button>
+            </form>
+        </section>
+    </section>
+</body>
+</html>

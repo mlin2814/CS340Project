@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="script.js"></script> -->
+    <title>Database High School</title>
+</head>
+<body>
+    <section id="nav-bar" class="nav-bar">
+        <a href="index.html" class="active">Home</a>
+        <a href="teachers.html">Teachers</a>
+        <a href="students.html">Students</a>
+        <a href="textbooks.html">Textbooks</a>
+        <a href="classrooms.html" class="active">Classrooms</a>
+    </section>
+
+    <section id="schoolName">
+        <h1>Database High School</h1>
+    </section>
+    <div class="form">
+        <form id="addingClassroom">
+            <h3>ADD/UPDATE CLASSROOM</h3>
+            <label>Classroom #:</label>
+            <br />
+            <input type="text" name="classNum" id="classNum">
+            <br />
+            <label>Teacher ID:</label>
+            <br />
+            <input type="number" name="classTeacherID" id="classTeacherID" placeholder="Search for teacher">
+            <br />
+            <label>Student ID:</label>
+            <br />
+            <input type="number" name="classStudentID" id="classStudentID" placeholder="Search for student">
+            <br />
+            <br />
+            <div id="additionalStudent"></div>
+            <br />
+            <input type="button" id="more_fields" onclick="add_students();" value="Add More" />
+            <br />
+            <br />
+            <button>ADD/UPDATE TEXTBOOK</button>
+        </form>
+    </div>
+    <script>
+        function add_students() {
+            var newspan = document.createElement('div');
+            newspan.innerHTML = '<label>Student ID:</label><br /><input type="number" name="classStudentID" id="classStudentID" placeholder="Search for student">';
+            document.getElementById('additionalStudent').appendChild(newspan);
+        }
+    </script>
+</body>
+</html>
